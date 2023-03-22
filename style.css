@@ -71,7 +71,7 @@
 
 .top {
     border: 1px solid #D6D6D6;
-    background-image: url("/img/bg.png");
+    background-image: url("./img/bg.png");
     background-size: cover;
     height: 895px;
 }
