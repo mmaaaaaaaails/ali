@@ -5,6 +5,10 @@
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/7dca09e227fdfe16908cebb4244589e4?family=Georgia" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 
@@ -25,7 +29,139 @@
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
+        <header class="header">
+            <img src="./img/header-logo.svg" alt="logo">
+            <nav>
+                <ul class="header__menu">
+                    <li class="header__item">
+                        <a class="header__link" href="#">Why Alivio</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">Solutions</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">Community</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__buttons">
+                <button class="btn btn--empty">Sign in</button>
+                <button class="btn btn--full">Start Trial</button>
+            </div>
+        </header>
+        <section class="top">
+            <div class="wrapper">
+                <div class="top__block">
+                    <h1 class="top__title">Be aware, Manage well.</h1>
+                    <p class="top__subtitle">Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                    <button class="btn btn--full">Find Your Way</button>
+                </div>
+            </div>
+        </section>
+        <section class="works">
+            <div class="wrapper">
+                <div class="works__top">
+                    <div class="works__left">
+                        <p class="works__text">How it works</p>
+                        <h3 class="section__title">Understand & Release the stress in 3 steps</h3>
+                    </div>
+                    <div>
+                        <p class="works__desc">Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card__top">
+                            <p class="card__number">01</p>
+                            <h4 class="card__title">Personalize</h4>
+                        </div>
+                        <p class="card__desc">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
+                        <img class="card__img" src="./img/works-1.png" alt="img">
+                    </div>
+                    <div class="card">
+                        <div class="card__top">
+                            <p class="card__number">02</p>
+                            <h4 class="card__title">Write & Understand</h4>
+                        </div>
+                        <p class="card__desc">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
+                        <img class="card__img" src="./img/works-2.png" alt="img">
+                    </div>
+                    <div class="card">
+                        <div class="card__top">
+                            <p class="card__number">03</p>
+                            <h4 class="card__title">Alivio</h4>
+                        </div>
+                        <p class="card__desc">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
+                        <img class="card__img" src="./img/works-3.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="video">
+            <div class="wrapper">
+                <div class="video__block">
+                    <div class="video__left">
+                        <h3 class="video__title">Let's hear about Kayla's success story</h3>
+                        <p class="video__subtitle">See how well Alivio works in a real customer’s life.</p>
+                        <button class="btn btn--full">Let’s get started</button>
+                    </div>
+                    <div class="video__right">
+                        <img src="./img/video.png" alt="video">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product">
+            <div class="wrapper">
+                <div class="product__block">
+                    <div class="product__left">
+                        <div class="product__main">
+                            <img src="./img/product-girl.png" alt="girl">
+                        </div>
+                        <div class="avatar">
+                            <h4 class="avatar__title">Customized For</h4>
+                            <div class="avatar__line"></div>
+                            <img src="./img/avatar.png" alt="avatar">
+                            <h6 class="avatar__name">Mikayla</h6>
+                            <p class="avatar__list">Your custom contents</p>
+                            <ul>
+                                <li class="avatar__item">Understand Your Stress</li>
+                                <li class="avatar__item">Anger Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product__right">
+                        <p class="product__text">Our product</p>
+                        <h4 class="section__title">You tell us your stress, We make your diary</h4>
+                        <p class="product__desc">Everyone experiences it, and in different ways.
+                            Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                        <button class="btn btn--full">Find Your Way</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="wrapper">
+                <h4 class="footer__title">Alivio</h4>
+                <ul>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Why Alivio</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Solutions</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Community</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
     </div>
 
 </body>
